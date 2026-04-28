@@ -1,0 +1,6 @@
+=== Test: Ajouter un produit au panier ===
+[INFO] Visiting /product/1
+[INFO] Clicking #add-to-cart
+[MOCK] POST /api/cart/add → 200 OK
+[INFO] UI updated: cart-count = 1
+[SUCCESS] Produit ajouté avec succès
